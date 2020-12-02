@@ -1,0 +1,32 @@
+{
+  "name": "tailwind-workshop-minimal",
+  "version": "1.0.0",
+  "description": "Simple boilerplate with only Tailwind and HTML",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.7",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "stylelint": "^13.8.0",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "build": "npx tailwindcss build ./tailwind.css -o ./public/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skjelmo/tailwind-workshop-minimal.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss"
+  ],
+  "author": "Eivind Skjelmo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skjelmo/tailwind-workshop-minimal/issues"
+  },
+  "homepage": "https://github.com/skjelmo/tailwind-workshop-minimal#readme"
+}
